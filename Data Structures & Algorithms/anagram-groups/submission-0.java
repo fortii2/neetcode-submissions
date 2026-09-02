@@ -12,7 +12,7 @@ class Solution {
             String normalized = Arrays.toString(arr);
 
             map.computeIfAbsent(
-                normalized, 
+                normalized,
                 k -> new ArrayList<String>()
             ).add(s);
         }
